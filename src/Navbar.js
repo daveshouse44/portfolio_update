@@ -7,7 +7,9 @@ export default function Navbar() {
         David Tierney
       </Link>
       <ul>
+        <CustomLink to="/portfolio">Portfolio</CustomLink>
         <CustomLink to="/about">About</CustomLink>
+        <CustomLink to="/contact">Contact</CustomLink>
       </ul>
     </nav>
   );
