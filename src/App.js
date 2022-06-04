@@ -1,23 +1,20 @@
-import Navbar from "./Navbar";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
+import { Navbar, Footer } from "./components";
+import { About, Contact, Home, Portfolio } from "./pages";
 import { Route, Routes } from "react-router-dom";
+import "./App.scss";
 
 function App() {
   return (
-    <>
+    <div className="app">
       <Navbar />
-      <div className="container">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </div>
-    </>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+      <Footer />
+    </div>
   );
 }
 

@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Vibur&display=swap");
+
+:root {
+  --font-base: "Open Sans", sans-serif;
+  --font-accent: "Vibur", sans-serif;
+
+  --black-color: #0e060c;
+  --primary-color: #1d0c19ff;
+  --purple-color: #AB4993
+  --blue-color: #3422d3ff;
+  --teal-color: #2CBFDD
+  --pine-color: #4ea699ff;
+  --emerald-color: #2dd881ff;
+  --aqua-color: #6fedb7ff;
+  --pear-color: #CDDC41;
+  --white-color: #FFFFFF;
+  --secondary-color: #f7f5f3;
+  --gray-color: #6c757d
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+}
