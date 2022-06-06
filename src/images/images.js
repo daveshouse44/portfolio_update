@@ -16,9 +16,10 @@ import sass from "../assets/sass.png";
 import vue from "../assets/vue.png";
 
 import brand from "../assets/brand.png";
-import brick from "../assets/brick.png";
+import brick from "../assets/brick.jpg";
 import circle from "../assets/circle.svg";
 import profile from "../assets/profile.png";
+import hero from "../assets/hero.png";
 
 import mobile from "../assets/mobile.png";
 
@@ -42,5 +43,6 @@ export default {
   brick,
   circle,
   profile,
+  hero,
   mobile,
 };

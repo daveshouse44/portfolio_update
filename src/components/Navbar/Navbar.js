@@ -1,17 +1,29 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 
+import { images } from "../../images";
 import "./Navbar.scss";
 
 export default function Navbar() {
   return (
-    <nav className="nav">
-      <Link to="/" className="portfolio">
-        David Tierney
-      </Link>
-      <ul>
-        <CustomLink to="/portfolio">Portfolio</CustomLink>
-        <CustomLink to="/about">About</CustomLink>
-        <CustomLink to="/contact">Contact</CustomLink>
+    <nav className="app__navbar">
+      <div className="app__navbar-logo">
+        <Link to="/" className="logo__portfolio">
+          <img src={images.brand} alt="brand" />
+        </Link>
+      </div>
+      <ul className="app__navbar-links">
+        <CustomLink className="app__flex p-text" to="/portfolio">
+          <div />
+          Portfolio
+        </CustomLink>
+        <CustomLink className="app__flex p-text" to="/about">
+          <div />
+          About
+        </CustomLink>
+        <CustomLink className="app__flex p-text" to="/contact">
+          <div />
+          Contact
+        </CustomLink>
       </ul>
     </nav>
   );
