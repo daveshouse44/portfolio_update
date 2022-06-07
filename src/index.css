@@ -6,16 +6,16 @@
 
   --black-color: #0e060c;
   --primary-color: #1d0c19ff;
-  --purple-color: #AB4993
+  --purple-color: #ab4993;
   --blue-color: #3422d3ff;
-  --teal-color: #2CBFDD
+  --teal-color: #2cbfdd;
   --pine-color: #4ea699ff;
   --emerald-color: #2dd881ff;
   --aqua-color: #6fedb7ff;
-  --pear-color: #CDDC41;
-  --white-color: #FFFFFF;
+  --pear-color: #cddc41;
+  --white-color: #ffffff;
   --secondary-color: #f7f5f3;
-  --gray-color: #6c757d
+  --gray-color: #6c757d;
 }
 
 * {
