@@ -54,6 +54,15 @@
 
     flex-direction: column;
 
+    div {
+      width: 5px;
+      height: 5px;
+      background: transparent;
+      border-radius: 50%;
+
+      margin-bottom: 5px;
+    }
+
     a {
       color: var(--teal-color);
       text-decoration: none;
@@ -74,13 +83,10 @@
       }
     }
 
-    div {
-      width: 5px;
-      height: 5px;
-      background: transparent;
-      border-radius: 50%;
-
-      margin-bottom: 5px;
+    &:hover {
+      div {
+        background-color: var(--teal-color);
+      }
     }
   }
 }
