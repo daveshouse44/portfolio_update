@@ -40,6 +40,9 @@ export default function Navbar() {
           >
             <TiTimesOutline onClick={() => setToggle(false)} />
             <ul>
+              <CustomLink to="/" onClick={() => setToggle(false)}>
+                Home
+              </CustomLink>
               <CustomLink to="/portfolio" onClick={() => setToggle(false)}>
                 Portfolio
               </CustomLink>
