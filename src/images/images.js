@@ -17,13 +17,14 @@ import vue from "../assets/vue.png";
 
 import brand from "../assets/brand.png";
 import brick from "../assets/brick.jpg";
+import wood from "../assets/wood.jpg";
 import circle from "../assets/circle.svg";
 import profile from "../assets/profile.png";
 import hero from "../assets/hero.png";
 
 import mobile from "../assets/mobile.png";
 
-export default {
+const images = {
   about01,
   about02,
   about03,
@@ -41,8 +42,11 @@ export default {
   vue,
   brand,
   brick,
+  wood,
   circle,
   profile,
   hero,
   mobile,
 };
+
+export default images;

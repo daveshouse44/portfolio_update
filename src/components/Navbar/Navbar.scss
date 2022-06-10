@@ -28,7 +28,7 @@
     &:hover {
       transform: scale(0.95);
       box-shadow: 0 0 1px var(--white-color), 0 0 3px var(--white-color),
-        0 0 5px var(--white-color), /* Blue glow */ 0 0 9px var(--teal-color),
+        0 0 5px var(--white-color), 0 0 9px var(--teal-color),
         0 0 12px var(--teal-color), 0 0 15px var(--teal-color),
         0 0 19px var(--teal-color), 0 0 25px var(--teal-color);
     }
@@ -77,10 +77,9 @@
       &:hover {
         color: var(--white-color);
         text-shadow: 0 0 7px var(--white-color), 0 0 10px var(--white-color),
-          0 0 21px var(--white-color),
-          /* Blue glow */ 0 0 42px var(--teal-color), 0 0 82px var(--teal-color),
-          0 0 92px var(--teal-color), 0 0 102px var(--teal-color),
-          0 0 151px var(--teal-color);
+          0 0 21px var(--white-color), 0 0 42px var(--teal-color),
+          0 0 82px var(--teal-color), 0 0 92px var(--teal-color),
+          0 0 102px var(--teal-color), 0 0 151px var(--teal-color);
       }
     }
 
@@ -90,5 +89,120 @@
         box-shadow: 0 0 10px var(--teal-color);
       }
     }
+  }
+
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
+}
+
+.app__navbar-menu {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--teal-color);
+
+  // This is the hamburger
+  svg {
+    width: 50%;
+    height: 50%;
+    color: var(--black-color);
+
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      color: var(--white-color);
+      filter: drop-shadow(0 0 4px var(--white-color));
+      filter: drop-shadow(0 0 8px var(--white-color));
+      filter: drop-shadow(0 0 12px var(--white-color));
+    }
+  }
+
+  div {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 5;
+
+    padding: 1rem;
+
+    width: 80%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    background: url("../../assets/wood.jpg");
+    background-color: var(--white-color);
+    background-size: cover;
+    background-repeat: repeat;
+
+    box-shadow: 0 0 20px rgba(247, 245, 243, 0.15);
+
+    // This is the menu close X
+    svg {
+      width: 40px;
+      height: 40px;
+      color: var(--teal-color);
+      margin: 0.5rem 1rem;
+
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        color: var(--white-color);
+        filter: drop-shadow(0 0 4px var(--white-color));
+        filter: drop-shadow(0 0 8px var(--white-color));
+        filter: drop-shadow(0 0 12px var(--teal-color));
+        filter: drop-shadow(0 0 16px var(--teal-color));
+      }
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+
+      li {
+        margin: 1rem;
+
+        a {
+          color: var(--teal-color);
+          text-decoration: none;
+          font-size: 1rem;
+          text-transform: uppercase;
+          font-weight: 500;
+
+          transition: all 0.3s ease-in-out;
+
+          &:hover {
+            color: var(--white-color);
+            text-shadow: 0 0 7px var(--white-color), 0 0 10px var(--white-color),
+              0 0 21px var(--white-color), 0 0 42px var(--teal-color),
+              0 0 82px var(--teal-color), 0 0 92px var(--teal-color),
+              0 0 102px var(--teal-color), 0 0 151px var(--teal-color);
+          }
+        }
+      }
+    }
+    @media screen and (min-width: 900px) {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 900px) {
+    display: none;
   }
 }
