@@ -16,6 +16,10 @@ export default function Navbar() {
         </Link>
       </div>
       <ul className="app__navbar-links">
+        <CustomLink className="app__flex p-text" to="/">
+          <div />
+          Home
+        </CustomLink>
         <CustomLink className="app__flex p-text" to="/portfolio">
           <div />
           Portfolio
