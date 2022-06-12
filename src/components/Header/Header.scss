@@ -167,23 +167,6 @@
     }
   }
 
-  @media screen and (max-width: 800px) {
-    div:nth-child(2) {
-      width: 125px;
-      height: 125px;
-    }
-
-    div:nth-child(3) {
-      width: 70px;
-      height: 70px;
-    }
-
-    div:nth-child(1) {
-      width: 100px;
-      height: 100px;
-    }
-  }
-
   @media screen and (max-width: 1200px) {
     width: 100%;
     flex-direction: row;
@@ -193,6 +176,23 @@
     div {
       margin: 1rem;
     }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  div:nth-child(2) {
+    width: 125px;
+    height: 125px;
+  }
+
+  div:nth-child(3) {
+    width: 70px;
+    height: 70px;
+  }
+
+  div:nth-child(1) {
+    width: 100px;
+    height: 100px;
   }
 }
 
