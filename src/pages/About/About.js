@@ -1,9 +1,62 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { motion } from "framer-motion";
+
+import { images } from "../../images";
 
 import "./About.scss";
 
+const abouts = [
+  {
+    title: "Web Development",
+    description: "Building and maintaining websites",
+    imgUrl: images.about01,
+  },
+  {
+    title: "Full Stack",
+    description: "End to end application development",
+    imgUrl: images.about02,
+  },
+  {
+    title: "Front-End Design",
+    description: "Creating dynamic UX / UI",
+    imgUrl: images.about03,
+  },
+  {
+    title: "Back-End Security",
+    description: "Managing data from the server to user",
+    imgUrl: images.about04,
+  },
+];
+
 const About = () => {
-  return <div>About</div>;
+  return (
+    <>
+      <h2 className="head-text">
+        A strategic approach to <span>Design</span> <br />
+        and <span>Development</span>
+      </h2>
+
+      <div className="app__profiles">
+        {abouts.map((about, index) => (
+          <motion.div
+            whileInView={{ opacity: 1 }}
+            whileHover={{ scale: 1.1 }}
+            transition={{ duration: 0.5, type: "tween" }}
+            className="app__profile-item"
+            key={about.title + index}
+          >
+            <img src={about.imgUrl} alt={about.title} />
+            <h2 className="bold-text" style={{ marginTop: 20 }}>
+              {about.title}
+            </h2>
+            <p className="p-text" style={{ marginTop: 10 }}>
+              {about.description}
+            </p>
+          </motion.div>
+        ))}
+      </div>
+    </>
+  );
 };
 
 export default About;
