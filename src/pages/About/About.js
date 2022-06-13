@@ -1,32 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 
-import { images } from "../../images";
+import { abouts } from "../../images";
 
 import "./About.scss";
-
-const abouts = [
-  {
-    title: "Web Development",
-    description: "Building and maintaining websites",
-    imgUrl: images.about01,
-  },
-  {
-    title: "Full Stack",
-    description: "End to end application development",
-    imgUrl: images.about02,
-  },
-  {
-    title: "Front-End Design",
-    description: "Creating dynamic UX / UI",
-    imgUrl: images.about03,
-  },
-  {
-    title: "Back-End Security",
-    description: "Managing data from the server to user",
-    imgUrl: images.about04,
-  },
-];
 
 const About = () => {
   return (
@@ -45,7 +22,7 @@ const About = () => {
             className="app__profile-item"
             key={about.title + index}
           >
-            <img src={about.imgUrl} alt={about.title} />
+            <img src={about.img} alt={about.title} />
             <h2 className="bold-text" style={{ marginTop: 20 }}>
               {about.title}
             </h2>

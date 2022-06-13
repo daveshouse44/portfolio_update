@@ -1,3 +1,4 @@
 import images from "./images";
+import abouts from "./abouts";
 
-export { images };
+export { images, abouts };
