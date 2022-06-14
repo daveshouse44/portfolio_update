@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+import { AppWrapper } from "../../Wrapper";
 import { abouts } from "../../images";
 
 import "./About.scss";
@@ -36,4 +37,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AppWrapper(About, "about");

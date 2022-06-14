@@ -1,1 +1,3 @@
-export { default as AppWrapper } from "./AppWrapper";
+import AppWrapper from "./AppWrapper";
+
+export { AppWrapper };
