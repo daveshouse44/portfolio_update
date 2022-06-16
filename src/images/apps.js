@@ -1,0 +1,111 @@
+const apps = [
+  {
+    name: "Days To Remember",
+    skill: "React/GraphQL/Twilio",
+    image: "days_to_remember.png",
+    deploy: "https://days-to-remember.herokuapp.com/",
+    repo: "https://github.com/kabaothao/Days-to-Remember",
+    overview:
+      "You'll never forget another important day. This application will automatically generate your greetings.",
+  },
+  {
+    name: "Sarah Drinks",
+    skill: "HTML/Sass/WebFonts",
+    image: "sarah_drinks.gif",
+    deploy: "https://daveshouse44.github.io/sarah_drinks/",
+    repo: "https://github.com/daveshouse44/sarah_drinks",
+    overview:
+      "Website design and hosting for client. This application is still in production.",
+  },
+  {
+    name: "U.S. National Parks",
+    skill: "JavaScript/API",
+    image: "us_national_parks.png",
+    deploy: "https://cumar-khalif.github.io/U.S.-National-Parks/",
+    repo: "https://github.com/Cumar-khalif/U.S.-National-Parks",
+    overview:
+      "Use this application to find and save information about National Parks including weather.",
+  },
+  {
+    name: "Just Tech News",
+    skill: "Java/JDK/SpringBoot/IntelliJ",
+    image: "tech-news-java.jpg",
+    deploy: "https://javaintellij-technews.herokuapp.com/",
+    repo: "https://github.com/daveshouse44/tech-news-java-api",
+    overview:
+      "Login, share, post and comment on this tech news aggregator application.",
+  },
+  {
+    name: "Anytime Budget Tracker",
+    skill: "NoSQL/IndexDB",
+    image: "anytime_budget_tracker.png",
+    deploy: "https://budget-tracker-anytime.herokuapp.com/",
+    repo: "https://github.com/daveshouse44/Anytime_Budget_Tracker",
+    overview:
+      "Track your finances whether online or offline. Add expenses or deposits regardless of connection.",
+  },
+  {
+    name: "Snake Game!",
+    skill: "HTML/CSS/JavaScript",
+    image: "snake_screenshot.gif",
+    deploy: "https://daveshouse44.github.io/snake_game/",
+    repo: "https://github.com/daveshouse44/snake_game",
+    overview:
+      "Classic Snake app that tracks your score built with pure JavaScript.",
+  },
+  {
+    name: "Tic Tac Toe!",
+    skill: "Angular/TypeScript/Nebular",
+    image: "tic-tac-toe-sc.jpg",
+    deploy: "https://tic-tac-toe-44.herokuapp.com/",
+    repo: "https://github.com/daveshouse44/tic_tac_toe",
+    overview: "3 in a row wins in this Angular PWA game launched to Heroku.",
+  },
+  {
+    name: "Password Generator",
+    skill: "JavaScript/HTML",
+    image: "password_generator.png",
+    deploy: "https://daveshouse44.github.io/PasswordGenerator/",
+    repo: "https://github.com/daveshouse44/PasswordGenerator",
+    overview:
+      "Generate a random and unique password based on your decided inputs.",
+  },
+  {
+    name: "Fitness Tracker",
+    skill: "NoSQL/MongoDB",
+    image: "workout_tracker.png",
+    deploy: "https://workout-tracker-mdb.herokuapp.com/",
+    repo: "https://github.com/daveshouse44/Workout_Tracker",
+    overview:
+      "Track your workouts daily with this app! You can track multiple workouts for each day.",
+  },
+  {
+    name: "Tech Blog",
+    skill: "Sequelize/Handlebars",
+    image: "tech_blog.png",
+    deploy: "https://tech-blog-daveshouse44.herokuapp.com/",
+    repo: "https://github.com/daveshouse44/Tech_Blog",
+    overview:
+      "Check out this blog where you can log in to add, update, delete posts and comments.",
+  },
+  {
+    name: "Note Taker",
+    skill: "Express/Node/Heroku",
+    image: "note_taker.png",
+    deploy: "https://dave-note-taker.herokuapp.com/",
+    repo: "https://github.com/daveshouse44/Note_Taker",
+    overview:
+      "Simple application where you can write and save important notes.",
+  },
+  {
+    name: "Shop React Redux",
+    skill: "React Redux/GraphQL",
+    image: "shop_react_redux.png",
+    deploy: "https://shop-react-redux.herokuapp.com/",
+    repo: "https://github.com/daveshouse44/Shop_React_Redux",
+    overview:
+      "Ecommerce site demonstrating cart functionality and a rebuilt React framework.",
+  },
+];
+
+export default apps;
