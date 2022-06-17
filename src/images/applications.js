@@ -1,7 +1,7 @@
-const apps = [
+const applications = [
   {
-    name: "Days To Remember",
-    skill: "React/GraphQL/Twilio",
+    title: "Days To Remember",
+    skill: ["React", "GraphQL", "Twilio"],
     image: "days_to_remember.png",
     deploy: "https://days-to-remember.herokuapp.com/",
     repo: "https://github.com/kabaothao/Days-to-Remember",
@@ -9,8 +9,8 @@ const apps = [
       "You'll never forget another important day. This application will automatically generate your greetings.",
   },
   {
-    name: "Sarah Drinks",
-    skill: "HTML/Sass/WebFonts",
+    title: "Sarah Drinks",
+    skill: ["Sass", "HTML", "WebFonts"],
     image: "sarah_drinks.gif",
     deploy: "https://daveshouse44.github.io/sarah_drinks/",
     repo: "https://github.com/daveshouse44/sarah_drinks",
@@ -18,8 +18,8 @@ const apps = [
       "Website design and hosting for client. This application is still in production.",
   },
   {
-    name: "U.S. National Parks",
-    skill: "JavaScript/API",
+    title: "U.S. National Parks",
+    skill: ["JavaScript", "API"],
     image: "us_national_parks.png",
     deploy: "https://cumar-khalif.github.io/U.S.-National-Parks/",
     repo: "https://github.com/Cumar-khalif/U.S.-National-Parks",
@@ -28,7 +28,7 @@ const apps = [
   },
   {
     name: "Just Tech News",
-    skill: "Java/JDK/SpringBoot/IntelliJ",
+    skill: ["Java", "JDK", "SpringBoot", "IntelliJ"],
     image: "tech-news-java.jpg",
     deploy: "https://javaintellij-technews.herokuapp.com/",
     repo: "https://github.com/daveshouse44/tech-news-java-api",
@@ -37,7 +37,7 @@ const apps = [
   },
   {
     name: "Anytime Budget Tracker",
-    skill: "NoSQL/IndexDB",
+    skill: ["NoSQL", "IndexDB"],
     image: "anytime_budget_tracker.png",
     deploy: "https://budget-tracker-anytime.herokuapp.com/",
     repo: "https://github.com/daveshouse44/Anytime_Budget_Tracker",
@@ -45,8 +45,8 @@ const apps = [
       "Track your finances whether online or offline. Add expenses or deposits regardless of connection.",
   },
   {
-    name: "Snake Game!",
-    skill: "HTML/CSS/JavaScript",
+    title: "Snake Game!",
+    skill: ["HTML", "CSS", "JavaScript"],
     image: "snake_screenshot.gif",
     deploy: "https://daveshouse44.github.io/snake_game/",
     repo: "https://github.com/daveshouse44/snake_game",
@@ -55,15 +55,15 @@ const apps = [
   },
   {
     name: "Tic Tac Toe!",
-    skill: "Angular/TypeScript/Nebular",
+    skill: ["Angular", "TypeScript", "Nebular"],
     image: "tic-tac-toe-sc.jpg",
     deploy: "https://tic-tac-toe-44.herokuapp.com/",
     repo: "https://github.com/daveshouse44/tic_tac_toe",
     overview: "3 in a row wins in this Angular PWA game launched to Heroku.",
   },
   {
-    name: "Password Generator",
-    skill: "JavaScript/HTML",
+    title: "Password Generator",
+    skill: ["HTML", "JavaScript"],
     image: "password_generator.png",
     deploy: "https://daveshouse44.github.io/PasswordGenerator/",
     repo: "https://github.com/daveshouse44/PasswordGenerator",
@@ -71,8 +71,8 @@ const apps = [
       "Generate a random and unique password based on your decided inputs.",
   },
   {
-    name: "Fitness Tracker",
-    skill: "NoSQL/MongoDB",
+    title: "Fitness Tracker",
+    skill: ["NoSQL", "MongoDB"],
     image: "workout_tracker.png",
     deploy: "https://workout-tracker-mdb.herokuapp.com/",
     repo: "https://github.com/daveshouse44/Workout_Tracker",
@@ -80,8 +80,8 @@ const apps = [
       "Track your workouts daily with this app! You can track multiple workouts for each day.",
   },
   {
-    name: "Tech Blog",
-    skill: "Sequelize/Handlebars",
+    title: "Tech Blog",
+    skill: ["Sequelize", "Handlebars"],
     image: "tech_blog.png",
     deploy: "https://tech-blog-daveshouse44.herokuapp.com/",
     repo: "https://github.com/daveshouse44/Tech_Blog",
@@ -89,8 +89,8 @@ const apps = [
       "Check out this blog where you can log in to add, update, delete posts and comments.",
   },
   {
-    name: "Note Taker",
-    skill: "Express/Node/Heroku",
+    title: "Note Taker",
+    skill: ["Express", "Node", "Heroku"],
     image: "note_taker.png",
     deploy: "https://dave-note-taker.herokuapp.com/",
     repo: "https://github.com/daveshouse44/Note_Taker",
@@ -98,8 +98,8 @@ const apps = [
       "Simple application where you can write and save important notes.",
   },
   {
-    name: "Shop React Redux",
-    skill: "React Redux/GraphQL",
+    title: "Shop React Redux",
+    skill: ["GraphQL", "Redux"],
     image: "shop_react_redux.png",
     deploy: "https://shop-react-redux.herokuapp.com/",
     repo: "https://github.com/daveshouse44/Shop_React_Redux",
@@ -108,4 +108,4 @@ const apps = [
   },
 ];
 
-export default apps;
+export default applications;

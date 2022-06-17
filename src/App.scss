@@ -122,7 +122,8 @@
     svg {
       width: 15px;
       height: 15px;
-      color: var(--gray-color);
+      color: var(--secondary-color);
+      opacity: 0.8;
     }
 
     &:hover {
@@ -130,7 +131,11 @@
       border-color: var(--teal-color);
 
       svg {
-        color: var(--black-color);
+        color: var(--white-color);
+        filter: drop-shadow(0 0 4px var(--white-color));
+        filter: drop-shadow(0 0 8px var(--white-color));
+        filter: drop-shadow(0 0 12px var(--white-color));
+        opacity: 1;
       }
     }
 

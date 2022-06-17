@@ -1,11 +1,8 @@
 import React from "react";
-import {
-  BsGithub,
-  BsLinkedin,
-  BsStackOverflow,
-  BsDiscord,
-  BsReddit,
-} from "react-icons/bs";
+import { BsGithub, BsLinkedin, BsStackOverflow } from "react-icons/bs";
+import { FaRedditAlien } from "react-icons/fa";
+import { SiDiscord } from "react-icons/si";
+import { GrMail } from "react-icons/gr";
 
 const Socials = () => {
   return (
@@ -20,10 +17,13 @@ const Socials = () => {
         <BsStackOverflow />
       </div>
       <div>
-        <BsDiscord />
+        <SiDiscord />
       </div>
       <div>
-        <BsReddit />
+        <FaRedditAlien />
+      </div>
+      <div>
+        <GrMail />
       </div>
     </div>
   );

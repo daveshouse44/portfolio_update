@@ -1,16 +1,22 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 import { motion } from "framer-motion";
 
-import { apps } from "../../images";
+import { applications } from "../../images";
 import { AppWrapper } from "../../Wrapper";
 
 import "./Portfolio.scss";
 
 const Portfolio = () => {
+  const [apps, setApps] = useState([]);
   const [filterApp, setFilterApp] = useState([]);
   const [activeFilter, setActiveFilter] = useState("All");
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
+
+  useEffect(() => {
+    setApps(applications);
+    setFilterApp(applications);
+  }, []);
 
   const handlePortfolioFilter = (item) => {
     setActiveFilter(item);
@@ -97,7 +103,7 @@ const Portfolio = () => {
               </p>
 
               <div className="app__work-tag app__flex">
-                <p className="p-text">{app.tags[0]}</p>
+                <p className="p-text">{app.skill[0]}</p>
               </div>
             </div>
           </div>

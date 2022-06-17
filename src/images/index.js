@@ -1,5 +1,5 @@
 import images from "./images";
 import abouts from "./abouts";
-import apps from "./apps";
+import applications from "./applications";
 
-export { images, abouts, apps };
+export { images, abouts, applications };
