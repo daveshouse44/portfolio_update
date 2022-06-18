@@ -102,7 +102,7 @@ const Portfolio = () => {
                 {app.overview}
               </p>
 
-              <div className="app__work-tag app__flex">
+              <div className="app__portfolio-tag app__flex">
                 <p className="p-text">{app.skill[0]}</p>
               </div>
             </div>
