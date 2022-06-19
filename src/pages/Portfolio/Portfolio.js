@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { AiFillEye, AiFillGithub } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
+import { FiLink } from "react-icons/fi";
 import { motion } from "framer-motion";
 
 import { applications } from "../../images";
-import { AppWrapper } from "../../Wrapper";
+import { AppWrapper, MotionWrapper } from "../../Wrapper";
 
 import "./Portfolio.scss";
 
@@ -80,7 +81,7 @@ const Portfolio = () => {
                     transition={{ duration: 0.25 }}
                     className="app__flex"
                   >
-                    <AiFillEye />
+                    <FiLink />
                   </motion.div>
                 </a>
                 <a href={app.repo} target="_blank" rel="noreferrer">
@@ -113,4 +114,8 @@ const Portfolio = () => {
   );
 };
 
-export default AppWrapper(Portfolio, "portfolio");
+export default AppWrapper(
+  MotionWrapper(Portfolio, "app__portfolio"),
+  "portfolio",
+  "app__brickbg"
+);

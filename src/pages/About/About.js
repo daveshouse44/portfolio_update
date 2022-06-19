@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import { AppWrapper } from "../../Wrapper";
+import { AppWrapper, MotionWrapper } from "../../Wrapper";
 import { abouts } from "../../images";
 
 import "./About.scss";
@@ -37,4 +37,8 @@ const About = () => {
   );
 };
 
-export default AppWrapper(About, "about");
+export default AppWrapper(
+  MotionWrapper(About, "app__about"),
+  "about",
+  "app__brickbg"
+);

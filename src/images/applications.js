@@ -33,7 +33,7 @@ const applications = [
     image: img.days_to_remember,
     deploy: "https://days-to-remember.herokuapp.com/",
     repo: "https://github.com/kabaothao/Days-to-Remember",
-    overview: "Greeting generator for important dates",
+    overview: "MERN Greeting Generator",
   },
   {
     title: "Sarah Drinks",
@@ -41,8 +41,7 @@ const applications = [
     image: img.sarah_drinks,
     deploy: "https://daveshouse44.github.io/sarah_drinks/",
     repo: "https://github.com/daveshouse44/sarah_drinks",
-    overview:
-      "Responsive client website",
+    overview: "Responsive client website",
   },
   {
     title: "U.S. National Parks",
@@ -50,26 +49,23 @@ const applications = [
     image: img.national_parks,
     deploy: "https://cumar-khalif.github.io/U.S.-National-Parks/",
     repo: "https://github.com/Cumar-khalif/U.S.-National-Parks",
-    overview:
-      "Parks and weather search",
+    overview: "Multiple API search",
   },
   {
-    name: "Just Tech News",
+    title: "Just Tech News",
     skill: ["Java", "JDK", "SpringBoot", "IntelliJ"],
     image: img.tech_news_java,
     deploy: "https://javaintellij-technews.herokuapp.com/",
     repo: "https://github.com/daveshouse44/tech-news-java-api",
-    overview:
-      "Tech news aggregator app",
+    overview: "News aggregator app",
   },
   {
-    name: "Anytime Budget Tracker",
+    title: "Anytime Budget Tracker",
     skill: ["NoSQL", "IndexDB"],
     image: img.anytime_budget_tracker,
     deploy: "https://budget-tracker-anytime.herokuapp.com/",
     repo: "https://github.com/daveshouse44/Anytime_Budget_Tracker",
-    overview:
-      "Finance tracker PWA",
+    overview: "Finance tracker PWA",
   },
   {
     title: "Snake Game!",
@@ -77,11 +73,10 @@ const applications = [
     image: img.snake_game,
     deploy: "https://daveshouse44.github.io/snake_game/",
     repo: "https://github.com/daveshouse44/snake_game",
-    overview:
-      "Classic game app",
+    overview: "JavaScript game classic",
   },
   {
-    name: "Tic Tac Toe!",
+    title: "Tic Tac Toe!",
     skill: ["Angular", "TypeScript", "Nebular"],
     image: img.tic_tac_toe,
     deploy: "https://tic-tac-toe-44.herokuapp.com/",
@@ -94,8 +89,7 @@ const applications = [
     image: img.password_generator,
     deploy: "https://daveshouse44.github.io/PasswordGenerator/",
     repo: "https://github.com/daveshouse44/PasswordGenerator",
-    overview:
-      "Random passwords on command",
+    overview: "User imput randomizer",
   },
   {
     title: "Fitness Tracker",
@@ -103,8 +97,7 @@ const applications = [
     image: img.workout_tracker,
     deploy: "https://workout-tracker-mdb.herokuapp.com/",
     repo: "https://github.com/daveshouse44/Workout_Tracker",
-    overview:
-      "Log workouts each day",
+    overview: "MongoDB based app",
   },
   {
     title: "Tech Blog",
@@ -112,8 +105,7 @@ const applications = [
     image: img.tech_blog,
     deploy: "https://tech-blog-daveshouse44.herokuapp.com/",
     repo: "https://github.com/daveshouse44/Tech_Blog",
-    overview:
-      "Track, post and edit posts",
+    overview: "MVC with authentication",
   },
   {
     title: "Note Taker",
@@ -121,8 +113,7 @@ const applications = [
     image: img.note_taker,
     deploy: "https://dave-note-taker.herokuapp.com/",
     repo: "https://github.com/daveshouse44/Note_Taker",
-    overview:
-      "Save important notes",
+    overview: "Browser based app",
   },
   {
     title: "Shop React Redux",
@@ -130,8 +121,7 @@ const applications = [
     image: img.shop_react_redux,
     deploy: "https://shop-react-redux.herokuapp.com/",
     repo: "https://github.com/daveshouse44/Shop_React_Redux",
-    overview:
-      "Ecommerce site with functionality",
+    overview: "Functional ecommerce site",
   },
 ];
 

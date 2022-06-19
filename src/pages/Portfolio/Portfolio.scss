@@ -25,8 +25,11 @@
     margin: 0.5rem;
 
     &:hover {
-      background-color: var(--secondary-color);
-      color: #fff;
+      color: var(--white-color);
+      text-shadow: 0 0 5px var(--white-color), 0 0 9px var(--white-color),
+        0 0 15px var(--white-color), 0 0 23px var(--teal-color),
+        0 0 38px var(--teal-color), 0 0 52px var(--teal-color),
+        0 0 79px var(--teal-color), 0 0 100px var(--teal-color);
     }
 
     @media screen and (min-width: 2000px) {
@@ -37,7 +40,8 @@
 
   .item-active {
     background-color: var(--secondary-color);
-    color: #fff;
+    color: var(--black-color);
+    box-shadow: 0 0 6px var(--white-color);
   }
 }
 
@@ -54,14 +58,15 @@
     margin: 2rem;
     padding: 1rem;
     border-radius: 0.5rem;
-    background-color: #fff;
-    color: #000;
+    background-color: var(--gray-color);
+    box-shadow: 0 0 35px rgba(0, 0, 0, 1);
 
     cursor: pointer;
     transition: all 0.3s ease;
 
     &:hover {
-      box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+      background-color: var(--secondary-color);
+      box-shadow: 0 0 35px rgba(255, 255, 255, 0.3);
     }
 
     @media screen and (min-width: 2000px) {
@@ -114,7 +119,7 @@
     height: 50px;
     border-radius: 50%;
     background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
+    color: var(--white-color);
 
     margin: 1rem;
     font-family: var(--font-base);
@@ -125,7 +130,7 @@
     svg {
       width: 50%;
       height: 50%;
-      color: var(--white-color);
+      color: var(--teal-color);
     }
   }
 }
@@ -139,10 +144,15 @@
   h4 {
     margin-top: 1rem;
     line-height: 1.5;
+    color: var(--black-color);
 
     @media screen and (min-width: 2000px) {
       margin-top: 3rem;
     }
+  }
+
+  .p-text {
+    color: var(--black-color);
   }
 
   .app__portfolio-tag {
@@ -150,7 +160,19 @@
 
     padding: 0.5rem 1rem;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: var(--teal-color);
     top: -25px;
+
+    .p-text {
+      color: var(--black-color);
+
+      &:hover {
+        color: var(--white-color);
+        text-shadow: 0 0 5px var(--white-color), 0 0 9px var(--white-color),
+          0 0 15px var(--white-color), 0 0 23px var(--teal-color),
+          0 0 38px var(--teal-color), 0 0 52px var(--teal-color),
+          0 0 79px var(--teal-color), 0 0 100px var(--teal-color);
+      }
+    }
   }
 }
