@@ -37,7 +37,7 @@ const Portfolio = () => {
   return (
     <>
       <h2 className="head-text">
-        Check out my <span>Portfolio</span>
+        Check out my latest <span>Projects</span>
       </h2>
 
       <div className="app__portfolio-filter">

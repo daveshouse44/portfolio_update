@@ -60,14 +60,21 @@
 }
 
 .head-text {
-  font-size: 2.75rem;
-  font-weight: 800;
+  font-size: 2.5rem;
+  font-weight: 500;
   text-align: center;
-  color: var(--black-color);
-  text-transform: capitalize;
+  color: var(--teal-color);
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
 
   span {
-    color: var(--secondary-color);
+    font-family: var(--font-accent);
+    font-size: 2.75rem;
+    font-weight: 500;
+    color: var(--white-color);
+    text-shadow: 0 0 2px var(--white-color), 0 0 3px var(--white-color),
+      0 0 5px var(--white-color), 0 0 12px var(--teal-color),
+      0 0 17px var(--teal-color), 0 0 21px var(--teal-color),
+      0 0 27px var(--teal-color), 0 0 37px var(--teal-color);
   }
 
   @media screen and (min-width: 2000px) {
@@ -117,7 +124,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: var(--primary-color);
+    background-color: var(--black-color);
     margin: 0.25rem 0;
     border: 1px solid var(--gray-color);
 
