@@ -17,7 +17,8 @@ import circle from "../assets/circle.svg";
 import profile from "../assets/profile.png";
 import hero from "../assets/hero.png";
 
-import mobile from "../assets/mobile.png";
+import mobile from "../assets/mobile.jpg";
+import email from "../assets/email.jpg";
 
 const images = {
   api,
@@ -38,6 +39,7 @@ const images = {
   profile,
   hero,
   mobile,
+  email,
 };
 
 export default images;

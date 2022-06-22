@@ -49,14 +49,14 @@ const Contact = () => {
     <>
       <h2 className="head-text">Take a coffee & chat with me</h2>
 
-      <div className="app__footer-cards">
-        <div className="app__footer-card ">
+      <div className="app__contact-cards">
+        <div className="app__contact-card ">
           <img src={images.email} alt="email" />
           <a href="mailto:hello@micael.com" className="p-text">
             hello@micael.com
           </a>
         </div>
-        <div className="app__footer-card">
+        <div className="app__contact-card">
           <img src={images.mobile} alt="phone" />
           <a href="tel:+1 (123) 456-7890" className="p-text">
             +1 (123) 456-7890
@@ -64,7 +64,7 @@ const Contact = () => {
         </div>
       </div>
       {!isFormSubmitted ? (
-        <div className="app__footer-form app__flex">
+        <div className="app__contact-form app__flex">
           <div className="app__flex">
             <input
               className="p-text"
@@ -108,7 +108,7 @@ const Contact = () => {
 };
 
 export default AppWrapper(
-  MotionWrapper(Contact, "app__footer"),
+  MotionWrapper(Contact, "app__contact"),
   "contact",
-  "app__whitebg"
+  "app__brickbg"
 );
