@@ -47,19 +47,24 @@ const Contact = () => {
 
   return (
     <>
-      <h2 className="head-text">Take a coffee & chat with me</h2>
+      <h2 className="head-text">
+        Send me a message or <span> $$$ </span> for a drink!
+      </h2>
 
       <div className="app__contact-cards">
         <div className="app__contact-card ">
           <img src={images.email} alt="email" />
-          <a href="mailto:hello@micael.com" className="p-text">
-            hello@micael.com
+          <a href="mailto:me@davetierney.dev" className="p-text">
+            me@davetierney.dev
           </a>
         </div>
         <div className="app__contact-card">
-          <img src={images.mobile} alt="phone" />
-          <a href="tel:+1 (123) 456-7890" className="p-text">
-            +1 (123) 456-7890
+          <img src={images.money} alt="venmo" />
+          <a
+            href="https://account.venmo.com/u/David-Tierney-11"
+            className="p-text"
+          >
+            Venmo me!
           </a>
         </div>
       </div>

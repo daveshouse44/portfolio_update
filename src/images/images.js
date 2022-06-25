@@ -19,6 +19,7 @@ import hero from "../assets/hero.png";
 
 import mobile from "../assets/mobile.jpg";
 import email from "../assets/email.jpg";
+import money from "../assets/money.jpg";
 
 const images = {
   api,
@@ -40,6 +41,7 @@ const images = {
   hero,
   mobile,
   email,
+  money,
 };
 
 export default images;
