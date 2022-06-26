@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+import { validateEmail } from "../../utils/helpers";
 import { images } from "../../images";
 import { AppWrapper, MotionWrapper } from "../../Wrapper";
 import "./Contact.scss";
@@ -48,7 +49,7 @@ const Contact = () => {
   return (
     <>
       <h2 className="head-text">
-        Send me a message or <span> $$$ </span> for a drink!
+        Send me a <span> message </span> or <span> $$$ </span> for a drink!
       </h2>
 
       <div className="app__contact-cards">
@@ -63,6 +64,8 @@ const Contact = () => {
           <a
             href="https://account.venmo.com/u/David-Tierney-11"
             className="p-text"
+            target="_blank"
+            rel="noreferrer"
           >
             Venmo me!
           </a>
@@ -74,7 +77,7 @@ const Contact = () => {
             <input
               className="p-text"
               type="text"
-              placeholder="Your Name"
+              placeholder="Enter Name"
               name="username"
               value={username}
               onChange={handleChangeInput}
@@ -84,7 +87,7 @@ const Contact = () => {
             <input
               className="p-text"
               type="email"
-              placeholder="Your Email"
+              placeholder="Enter Email"
               name="email"
               value={email}
               onChange={handleChangeInput}
@@ -93,7 +96,7 @@ const Contact = () => {
           <div>
             <textarea
               className="p-text"
-              placeholder="Your Message"
+              placeholder="Your Message Here:"
               value={message}
               name="message"
               onChange={handleChangeInput}

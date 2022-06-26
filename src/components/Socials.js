@@ -8,22 +8,54 @@ const Socials = () => {
   return (
     <div className="app__social">
       <div>
-        <BsGithub />
+        <a
+          href="https://github.com/daveshouse44"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <BsGithub />
+        </a>
       </div>
       <div>
-        <BsLinkedin />
+        <a
+          href="https://www.linkedin.com/in/david-tierney-652030214/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <BsLinkedin />
+        </a>
       </div>
       <div>
-        <BsStackOverflow />
+        <a
+          href="https://stackoverflow.com/users/16111199/david-tierney"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <BsStackOverflow />
+        </a>
       </div>
       <div>
-        <SiDiscord />
+        <a
+          href="https://discordapp.com/users/daveshouse44#3785"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <SiDiscord />
+        </a>
       </div>
       <div>
-        <FaRedditAlien />
+        <a
+          href="https://www.reddit.com/user/daves_house"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaRedditAlien />
+        </a>
       </div>
       <div>
-        <GrMail />
+        <a href="mailto:me@davetierney.dev">
+          <GrMail />
+        </a>
       </div>
     </div>
   );
