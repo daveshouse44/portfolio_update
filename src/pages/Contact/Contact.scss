@@ -138,3 +138,10 @@
     margin: 1rem 0;
   }
 }
+.error-text {
+  color: var(--white-color);
+  text-shadow: 0 0 5px var(--white-color), 0 0 9px var(--white-color),
+    0 0 15px var(--white-color), 0 0 23px var(--purple-color),
+    0 0 38px var(--purple-color), 0 0 52px var(--purple-color),
+    0 0 79px var(--purple-color), 0 0 100px var(--purple-color);
+}

@@ -13,6 +13,7 @@ const Contact = () => {
   });
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [userMessage, setUserMessage] = useState("");
 
   const { username, email, message } = formData;
 
@@ -31,19 +32,24 @@ const Contact = () => {
       message: formData.message,
     };
 
-    fetch("https://formspree.io/f/xayarkno", {
-      mode: "no-cors",
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(contact),
-    })
-      .then(() => {
-        setLoading(false);
-        setIsFormSubmitted(true);
+    const isValid = validateEmail(contact.email);
+
+    if (!isValid) {
+      setUserMessage("Your email is invalid!");
+    } else
+      fetch("https://formspree.io/f/xayarkno", {
+        mode: "no-cors",
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(contact),
       })
-      .catch((err) => console.log(err));
+        .then(() => {
+          setLoading(false);
+          setIsFormSubmitted(true);
+        })
+        .catch((err) => console.log(err));
   };
 
   return (
@@ -102,6 +108,7 @@ const Contact = () => {
               onChange={handleChangeInput}
             />
           </div>
+          {userMessage && <p className="error-text">{userMessage}</p>}
           <button type="button" className="p-text" onClick={handleSubmit}>
             {!loading ? "Send Message" : "Sending..."}
           </button>
