@@ -1,0 +1,47 @@
+.app__footer {
+  display: none;
+  background-color: var(--black-color);
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  padding: 0.5rem;
+
+  div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(14, 6, 12, 0.8);
+    margin: 0.25rem 0.5rem;
+    border: 1px solid var(--gray-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.3s ease-in-out;
+
+    svg {
+      width: 15px;
+      height: 15px;
+      color: var(--secondary-color);
+      opacity: 0.8;
+    }
+
+    &:hover {
+      background-color: var(--teal-color);
+      border-color: var(--teal-color);
+
+      svg {
+        color: var(--white-color);
+        filter: drop-shadow(0 0 4px var(--white-color));
+        filter: drop-shadow(0 0 8px var(--white-color));
+        filter: drop-shadow(0 0 12px var(--white-color));
+        opacity: 1;
+      }
+    }
+  }
+  @media screen and (max-width: 500px) {
+    display: flex;
+  }
+}
