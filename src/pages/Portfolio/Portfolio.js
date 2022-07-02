@@ -29,6 +29,8 @@ const Portfolio = () => {
       if (item === "All") {
         setFilterApp(apps);
       } else {
+        console.log(item);
+        console.log(apps);
         setFilterApp(apps.filter((app) => app.tags.includes(item)));
       }
     }, 500);
