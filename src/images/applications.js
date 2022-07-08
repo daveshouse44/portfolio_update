@@ -29,7 +29,13 @@ const img = {
 const applications = [
   {
     title: "Days To Remember",
-    skill: ["React", "GraphQL", "Twilio"],
+    skill: [
+      "React | GraphQL | Twilio",
+      "Frontend",
+      "Backend",
+      "JS Framework",
+      "Full Stack",
+    ],
     image: img.days_to_remember,
     deploy: "https://days-to-remember.herokuapp.com/",
     repo: "https://github.com/kabaothao/Days-to-Remember",
@@ -37,7 +43,7 @@ const applications = [
   },
   {
     title: "Sarah Drinks",
-    skill: ["Sass", "HTML", "WebFonts"],
+    skill: ["Sass | WebFonts", "HTML", "Frontend"],
     image: img.sarah_drinks,
     deploy: "https://daveshouse44.github.io/sarah_drinks/",
     repo: "https://github.com/daveshouse44/sarah_drinks",
@@ -45,7 +51,7 @@ const applications = [
   },
   {
     title: "U.S. National Parks",
-    skill: ["JavaScript", "API"],
+    skill: ["API | Tailwind", "Frontend", "Backend"],
     image: img.national_parks,
     deploy: "https://cumar-khalif.github.io/U.S.-National-Parks/",
     repo: "https://github.com/Cumar-khalif/U.S.-National-Parks",
@@ -53,7 +59,14 @@ const applications = [
   },
   {
     title: "Just Tech News",
-    skill: ["Java", "JDK", "SpringBoot", "IntelliJ"],
+    skill: [
+      "Java | Thymeleaf",
+      "JDK",
+      "SpringBoot",
+      "IntelliJ",
+      "Frontend",
+      "Backend",
+    ],
     image: img.tech_news_java,
     deploy: "https://javaintellij-technews.herokuapp.com/",
     repo: "https://github.com/daveshouse44/tech-news-java-api",
@@ -61,7 +74,7 @@ const applications = [
   },
   {
     title: "Anytime Budget Tracker",
-    skill: ["NoSQL", "IndexDB"],
+    skill: ["NoSQL | IndexDB", "Frontend", "Backend", "PWA"],
     image: img.anytime_budget_tracker,
     deploy: "https://budget-tracker-anytime.herokuapp.com/",
     repo: "https://github.com/daveshouse44/Anytime_Budget_Tracker",
@@ -69,7 +82,7 @@ const applications = [
   },
   {
     title: "Snake Game!",
-    skill: ["HTML", "CSS", "JavaScript"],
+    skill: ["JavaScript | HTML | CSS", "Frontend"],
     image: img.snake_game,
     deploy: "https://daveshouse44.github.io/snake_game/",
     repo: "https://github.com/daveshouse44/snake_game",
@@ -77,7 +90,13 @@ const applications = [
   },
   {
     title: "Tic Tac Toe!",
-    skill: ["Angular", "TypeScript", "Nebular"],
+    skill: [
+      "Angular | TypeScript",
+      "Nebular",
+      "Frontend",
+      "PWA",
+      "JS Framework",
+    ],
     image: img.tic_tac_toe,
     deploy: "https://tic-tac-toe-44.herokuapp.com/",
     repo: "https://github.com/daveshouse44/tic_tac_toe",
@@ -85,7 +104,7 @@ const applications = [
   },
   {
     title: "Password Generator",
-    skill: ["HTML", "JavaScript"],
+    skill: ["HTML | JavaScript", "Frontend"],
     image: img.password_generator,
     deploy: "https://daveshouse44.github.io/PasswordGenerator/",
     repo: "https://github.com/daveshouse44/PasswordGenerator",
@@ -93,7 +112,7 @@ const applications = [
   },
   {
     title: "Fitness Tracker",
-    skill: ["NoSQL", "MongoDB"],
+    skill: ["NoSQL | MongoDB", "Frontend", "Backend", "Full Stack"],
     image: img.workout_tracker,
     deploy: "https://workout-tracker-mdb.herokuapp.com/",
     repo: "https://github.com/daveshouse44/Workout_Tracker",
@@ -101,7 +120,7 @@ const applications = [
   },
   {
     title: "Tech Blog",
-    skill: ["Sequelize", "Handlebars"],
+    skill: ["Sequelize | Handlebars", "Frontend", "Backend", "Full Stack"],
     image: img.tech_blog,
     deploy: "https://tech-blog-daveshouse44.herokuapp.com/",
     repo: "https://github.com/daveshouse44/Tech_Blog",
@@ -109,7 +128,7 @@ const applications = [
   },
   {
     title: "Note Taker",
-    skill: ["Express", "Node", "Heroku"],
+    skill: ["Express | Node", "Heroku", "Frontend", "Backend"],
     image: img.note_taker,
     deploy: "https://dave-note-taker.herokuapp.com/",
     repo: "https://github.com/daveshouse44/Note_Taker",
@@ -117,7 +136,13 @@ const applications = [
   },
   {
     title: "Shop React Redux",
-    skill: ["GraphQL", "Redux"],
+    skill: [
+      "GraphQL | Redux",
+      "JS Framework",
+      "Frontend",
+      "Backend",
+      "Full Stack",
+    ],
     image: img.shop_react_redux,
     deploy: "https://shop-react-redux.herokuapp.com/",
     repo: "https://github.com/daveshouse44/Shop_React_Redux",

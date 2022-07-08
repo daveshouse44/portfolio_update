@@ -31,7 +31,7 @@ const Portfolio = () => {
       } else {
         console.log(item);
         console.log(apps);
-        setFilterApp(apps.filter((app) => app.tags.includes(item)));
+        setFilterApp(apps.filter((app) => app.skill.includes(item)));
       }
     }, 500);
   };
@@ -43,19 +43,24 @@ const Portfolio = () => {
       </h2>
 
       <div className="app__portfolio-filter">
-        {["UI/UX", "Web App", "Mobile App", "React JS", "All"].map(
-          (item, index) => (
-            <div
-              key={index}
-              onClick={() => handlePortfolioFilter(item)}
-              className={`app__portfolio-filter-item app__flex p-text ${
-                activeFilter === item ? "item-active" : ""
-              }`}
-            >
-              {item}
-            </div>
-          )
-        )}
+        {[
+          "Frontend",
+          "Backend",
+          "PWA",
+          "JS Framework",
+          "Full Stack",
+          "All",
+        ].map((item, index) => (
+          <div
+            key={index}
+            onClick={() => handlePortfolioFilter(item)}
+            className={`app__portfolio-filter-item app__flex p-text ${
+              activeFilter === item ? "item-active" : ""
+            }`}
+          >
+            {item}
+          </div>
+        ))}
       </div>
       <motion.div
         animate={animateCard}
