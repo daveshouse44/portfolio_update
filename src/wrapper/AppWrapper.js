@@ -1,5 +1,5 @@
 import React from "react";
-import { NavDots, Socials } from "../components";
+import { Socials } from "../components";
 
 const AppWrapper = (Component, idName, classNames) =>
   function HOC() {
@@ -13,7 +13,6 @@ const AppWrapper = (Component, idName, classNames) =>
             <p className="p-text">All rights reserved</p>
           </div>
         </div>
-        <NavDots active={idName} />
       </div>
     );
   };
