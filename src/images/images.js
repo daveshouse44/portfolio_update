@@ -9,6 +9,14 @@ import python from "../assets/python.png";
 import react from "../assets/react.png";
 import sass from "../assets/sass.png";
 import vue from "../assets/vue.png";
+import angular from "../assets/angular.png";
+import tailwind from "../assets/tailwind.png";
+import bootstrap from "../assets/bootstrap.png";
+import mongodb from "../assets/mongodb.png";
+import heroku from "../assets/heroku.png";
+import mysql from "../assets/mysql.png";
+import aws from "../assets/aws.png";
+import wordpress from "../assets/wordpress.png";
 
 import brand from "../assets/brand.png";
 import brick from "../assets/brick.jpg";
@@ -22,6 +30,7 @@ import email from "../assets/email.jpg";
 import money from "../assets/money.jpg";
 
 const images = {
+  angular,
   api,
   css,
   git,
@@ -33,6 +42,13 @@ const images = {
   react,
   sass,
   vue,
+  tailwind,
+  bootstrap,
+  mongodb,
+  heroku,
+  mysql,
+  aws,
+  wordpress,
   brand,
   brick,
   wood,

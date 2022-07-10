@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import { AppWrapper, MotionWrapper } from "../../Wrapper";
+import { Slider } from "../../components";
 import { abouts } from "../../images";
 
 import "./About.scss";
@@ -33,6 +34,7 @@ const About = () => {
           </motion.div>
         ))}
       </div>
+      <Slider />
     </>
   );
 };

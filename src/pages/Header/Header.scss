@@ -88,6 +88,10 @@
     flex-direction: column;
     margin-top: 3rem;
 
+    @media screen and (max-width: 800px) {
+      margin-top: 1rem;
+    }
+
     p {
       width: 100%;
       color: var(--teal-color);
