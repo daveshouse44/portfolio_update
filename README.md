@@ -4,7 +4,7 @@
 
 Check out my latest projects and updates on my React portfolio page.
 
-![Image of main page application]()
+![Screenshot](./src/assets/github_screenshot.png)
 
 ## Table of Contents
 
