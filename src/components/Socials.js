@@ -18,7 +18,7 @@ const Socials = () => {
       </div>
       <div>
         <a
-          href="https://www.linkedin.com/in/david-tierney-652030214/"
+          href="https://www.linkedin.com/in/dave-tierney/"
           target="_blank"
           rel="noreferrer"
         >

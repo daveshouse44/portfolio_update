@@ -37,6 +37,6 @@ David Tierney
 
 [GitHub](https://github.com/daveshouse44)
 
-[LinkedIn](https://www.linkedin.com/in/david-tierney-652030214/)
+[LinkedIn](https://www.linkedin.com/in/dave-tierney/)
 
 [Email: davidetierney44@gmail.com](mailto:davidetierney44@gmail.com)
