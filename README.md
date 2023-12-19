@@ -18,7 +18,7 @@ Check out my latest projects and updates on my React portfolio page.
 
 ## Link
 
-[Check out my portfolio here!](https://davetierney.dev/)
+[Check out my portfolio here!](https://daveshouse44.github.io/portfolio_update/)
 
 ## Technologies-Used
 
